@@ -1,0 +1,43 @@
+/* Header.css */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2c3e50;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo img {
+    height: 50px;   /* Adjust as per your logo's size */
+    width: auto;
+    margin-right: 0.5rem; /* Adds a little space between the logo and the navigation */
+}
+
+.title {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.title:hover {
+    color: #3498db;
+}
+
+
+.header-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-nav-item {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header-nav-item:hover {
+    color: #3498db;
+}
